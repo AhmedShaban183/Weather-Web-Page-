@@ -328,9 +328,9 @@ fetchData(url.forecast(lat, lon), function (forecast) {
     }
 
 
-       loading.style.display = "none";
-     container.style.overflowY = "overlay";
-   container.classList.add("fade-in") 
+    loading.style.display = "none";
+    container.style.overflowY = "overlay";
+    container.classList.add("fade-in") 
 });
 
 
